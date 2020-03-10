@@ -5,7 +5,7 @@ public class PermutationStringsCharArray {
 	static boolean result = false;
 	public static void main(String[] args) {
 		result = permutation("dogy","godi");
-		System.out.println(result);;
+		System.out.println(result);
 	}
 	
 	static boolean permutation(String s, String t) {
